@@ -23,3 +23,18 @@ DÉBUT
     Renvoyer nb1
 FIN
 
+b.
+/*
+    Comparer 3 nombres et renvoyer le plus grand
+        => renvoyer 1 des trois
+*/
+FONCTION comparer3Nombres(var nb1, var nb2, var nb3)
+DÉBUT
+    SI nb2 > nb1 ET nb2 > nb3 ALORS
+        Renvoyer nb2
+    FINSI
+    SI nb3 > nb1 ET nb3 > nb2 ALORS
+        Renvoyer nb3
+    FINSI
+    Renvoyer nb1
+FIN
