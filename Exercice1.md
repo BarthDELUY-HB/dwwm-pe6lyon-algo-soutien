@@ -38,3 +38,14 @@ DÉBUT
     FINSI
     Renvoyer nb1
 FIN
+
+c.
+/*
+    Comparer 4 nombres et renvoyer le plus grand
+        => renvoyer 1 des quatre
+*/
+FONCTION comparer4Nombres(var nb1, var nb2, var nb3, var nb4)
+DÉBUT
+
+    Renvoyer nb1
+FIN
