@@ -11,8 +11,15 @@ c) Même exercice avec quatre nombres distincts.
 
 ## Correction
 a.
+/*
+    Comparer 2 nombres et renvoyer le plus grand
+        => renvoyer 1 des deux
+*/
 FONCTION comparer2Nombres(var nb1, var nb2)
 DÉBUT
-
-    Renvoyer ##################
+    SI nb2 > nb1 ALORS
+        Renvoyer nb2
+    FINSI
+    Renvoyer nb1
 FIN
+
