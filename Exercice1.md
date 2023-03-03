@@ -10,3 +10,9 @@ b) Même exercice avec trois nombres distincts.
 c) Même exercice avec quatre nombres distincts. 
 
 ## Correction
+a.
+FONCTION comparer2Nombres(var nb1, var nb2)
+DÉBUT
+
+    Renvoyer ##################
+FIN
